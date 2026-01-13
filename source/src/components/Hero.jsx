@@ -33,7 +33,7 @@ const Hero = () => {
 
           {/* Main Title */}
           <h1 className="reveal reveal-delay-1 text-5xl md:text-7xl font-bold mb-6 leading-tight">
-            Transformamos Ideas<br/>en{' '}
+            Transformamos Ideas<br />en{' '}
             <span className="gradient-text">
               Soluciones Digitales
             </span>
@@ -41,19 +41,19 @@ const Hero = () => {
 
           {/* Description */}
           <p className="reveal reveal-delay-2 text-xl text-gray-300 mb-12 max-w-3xl mx-auto">
-            Somos USDOT, tu socio estratégico en desarrollo de software y consultoría tecnológica. 
+            Somos USDOT, tu socio estratégico en desarrollo de software y consultoría tecnológica.
             Creamos productos digitales excepcionales que impulsan el crecimiento de tu negocio.
           </p>
 
           {/* CTA Buttons */}
           <div className="reveal reveal-delay-3 flex flex-wrap gap-4 justify-center">
-            <button 
+            <button
               onClick={() => scrollToSection('contacto')}
               className="relative overflow-hidden bg-gradient-to-r from-primary to-primary-dark text-white px-10 py-4 rounded-xl font-semibold transition-all hover:-translate-y-1 hover:shadow-lg hover:shadow-primary/40 btn-shine"
             >
               Iniciar Proyecto
             </button>
-            <button 
+            <button
               onClick={() => scrollToSection('portafolio')}
               className="bg-transparent text-primary px-10 py-4 rounded-xl font-semibold border-2 border-primary transition-all hover:bg-primary/10 hover:-translate-y-1"
             >
@@ -62,24 +62,26 @@ const Hero = () => {
           </div>
 
           {/* Stats */}
+          {/* Stats */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mt-20 reveal reveal-delay-4">
             <div>
-              <div className="text-5xl font-extrabold gradient-text">50+</div>
-              <p className="text-gray-400 mt-2">Proyectos Completados</p>
+              <div className="text-5xl font-extrabold gradient-text">&lt; 24h</div>
+              <p className="text-gray-400 mt-2">Tiempo de respuesta</p>
             </div>
             <div>
-              <div className="text-5xl font-extrabold gradient-text">30+</div>
-              <p className="text-gray-400 mt-2">Clientes Satisfechos</p>
+              <div className="text-5xl font-extrabold gradient-text">MVP</div>
+              <p className="text-gray-400 mt-2">en 4–6 semanas</p>
             </div>
             <div>
-              <div className="text-5xl font-extrabold gradient-text">5+</div>
-              <p className="text-gray-400 mt-2">Años de Experiencia</p>
+              <div className="text-5xl font-extrabold gradient-text">E2E</div>
+              <p className="text-gray-400 mt-2">De idea a producción</p>
             </div>
             <div>
-              <div className="text-5xl font-extrabold gradient-text">99%</div>
-              <p className="text-gray-400 mt-2">Tasa de Éxito</p>
+              <div className="text-5xl font-extrabold gradient-text">IA</div>
+              <p className="text-gray-400 mt-2">Automatización inteligente</p>
             </div>
           </div>
+
         </div>
       </div>
     </section>
