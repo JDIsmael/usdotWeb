@@ -22,7 +22,7 @@ const Hero = () => {
       <div className="hexagon absolute bottom-[20%] left-[20%] w-10 h-12 bg-primary/20 float-animation" style={{ animationDelay: '2s' }} />
       <div className="hexagon absolute bottom-[30%] right-[10%] w-10 h-12 bg-primary/20 float-animation" style={{ animationDelay: '1.5s' }} />
 
-      <div className="max-w-7xl mx-auto px-6 py-20 relative z-10">
+      <div className="max-w-7xl mx-auto px-6 pt-24 pb-20 relative z-10">
         <div className="text-center">
           {/* Badge */}
           <div className="reveal mb-6">

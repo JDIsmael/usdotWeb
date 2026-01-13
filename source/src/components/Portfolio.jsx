@@ -1,19 +1,21 @@
 import dashboardImg from '../img/dashboard.png'; // ajusta la ruta si tu archivo no está en src/components
+import appMovilImg from '../img/app-movil.png'; // ajusta la ruta si tu archivo no está en src/components
 
 const Portfolio = () => {
   const projects = [
     {
-      title: 'ERP a medida para Retail',
+      title: 'App de Gestión de Lecturas en Campo',
       description:
-        'Sistema web para centralizar inventario, ventas y CRM, optimizando procesos operativos y la gestión diaria.',
+        'Aplicación móvil offline-first para registro y seguimiento de mediciones, con sincronización automática al backend y generación de reportes.',
+      image: appMovilImg,
       icon: (
         <svg className="w-20 h-20 text-primary opacity-30" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
         </svg>
       ),
-      tags: ['React', 'Node.js', 'PostgreSQL', 'AWS'],
-      sector: '🏢 Sector Retail',
-      year: '📅 2024'
+      tags: ['Flutter', 'Java', 'PostgreSQL', 'Microservicios'],
+      sector: '🏢 Sector Público',
+      year: '📅 2025'
     },
     {
       title: 'App Fitness multiplataforma',
