@@ -17,13 +17,13 @@ const Contact = () => {
         {/* CTA Buttons */}
         <div className="flex flex-wrap gap-4 justify-center mb-12">
           <a 
-            href="mailto:contacto@usdot.com"
+            href="mailto:contacto-comercial@usdot.tech"
             className="relative overflow-hidden bg-gradient-to-r from-primary to-primary-dark text-white px-10 py-4 rounded-xl font-semibold transition-all hover:-translate-y-1 hover:shadow-lg hover:shadow-primary/40 btn-shine inline-flex items-center gap-2"
           >
             <span>📧</span> Enviar Email
           </a>
           <a 
-            href="https://wa.me/1234567890"
+            href="https://wa.me/+593959545998"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-transparent text-primary px-10 py-4 rounded-xl font-semibold border-2 border-primary transition-all hover:bg-primary/10 hover:-translate-y-1 inline-flex items-center gap-2"

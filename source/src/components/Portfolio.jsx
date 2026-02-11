@@ -56,6 +56,14 @@ const Portfolio = () => {
       tags: ['Vue.js', 'Python', 'Java', 'Node Js'],
       sector: '📊 Sector Público',
       year: '📅 2025'
+    },
+    {
+      title: 'Sistema Integral de Gestión Académica',
+      description:
+        'Plataforma web para la administración de docentes, estudiantes y control de calificaciones con cálculo automático de promedios. Implementado con arquitectura Spring Boot + Angular e integración de Redis como servidor de caché para optimizar tiempos de respuesta y rendimiento.',
+      tags: ['Angular', 'Spring Boot', 'Redis', 'Java'],
+      sector: '🎓 Sector Educativo',
+      year: '📅 2023'
     }
   ];
 
